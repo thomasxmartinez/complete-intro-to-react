@@ -1,4 +1,3 @@
-/* global React ReactDOM */
 var ce = React.createElement;
 
 var MyTitle = function(props) {
@@ -15,4 +14,4 @@ var MyFirstComponent = function(props) {
   );
 };
 
-ReactDOM.render(ce(MyFirstComponent), document.getElementById('app')); // adfa
+ReactDOM.render(ce(MyFirstComponent), document.getElementById('app'));
